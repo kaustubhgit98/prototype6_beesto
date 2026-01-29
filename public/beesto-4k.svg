@@ -1,0 +1,34 @@
+<svg width="3840" height="2160" viewBox="0 0 3840 2160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="3840" height="2160" fill="#000000"/>
+  
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e4e4e7"/>
+    </linearGradient>
+  </defs>
+  
+  <g transform="translate(1520, 680)" filter="url(#glow)">
+    <path
+      d="M100 50H412.5C467.728 50 512.5 94.7715 512.5 150V225C512.5 280.228 467.728 325 412.5 325H100V50Z"
+      fill="url(#logoGradient)"
+    />
+    <path
+      d="M100 375H412.5C467.728 375 512.5 419.772 512.5 475V550C512.5 605.228 467.728 650 412.5 650H100V375Z"
+      fill="white"
+      fill-opacity="0.6"
+    />
+    <rect x="100" y="50" width="75" height="600" fill="white" />
+  </g>
+  
+  <text x="1920" y="1520" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="180" font-weight="800" fill="white" letter-spacing="0.05em">BEESTO</text>
+  
+  <text x="1920" y="1620" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="500" fill="rgba(255,255,255,0.4)" letter-spacing="0.2em">AI-NATIVE CODE EDITOR</text>
+</svg>
